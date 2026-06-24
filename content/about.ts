@@ -17,7 +17,7 @@ export const aboutSections: AboutSection[] = [
     items: [
       "Research experience applying machine learning and optimization to clinical care",
       "Comfortable working in Python, Java, and SQL",
-      "Enjoy collaborating to enact positive change",
+      "Commitment to collaborating to enact positive change",
     ],
   },
 ];
