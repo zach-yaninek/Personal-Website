@@ -62,7 +62,7 @@ export async function submitContactForm(
   const contactEmail = process.env.CONTACT_EMAIL ?? site.email;
   const contactFrom =
     process.env.CONTACT_FROM ??
-    "Zachary Yaninek <contact@zachyaninek.me>";
+    "Zachary Yaninek <contact@mail.zachyaninek.me>";
   const resend = new Resend(resendApiKey);
   const subject = `New contact form message from ${name}`;
   const text = [
