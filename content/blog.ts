@@ -14,6 +14,46 @@ export type BlogPost = {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "what-is-orfe",
+    title: "What is ORFE?",
+    date: "2026-08-01",
+    excerpt:
+      "My answer to a question I'm frequently asked",
+    tags: ["operations research", "learning", "impact"],
+    body: [
+      {
+        type: "paragraph",
+        text:
+          "This is a question I’ve faced since my acceptance to Princeton. When I initially saw \“Operations Research and Financial Engineering\” listed as a potential major, I had no idea what that meant. The same was true for my parents and (almost) anyone who’s since asked me, \“What’s your major?\” Even within Princeton, few who haven’t taken classes in the department know what ORFE students do. Nonetheless, ORFE holds this mystique of prestige centered around its mathematical rigor, earning potential, and classmates who are allegedly plotting to take over the world (and perhaps optimize it as they do).",
+      },
+      {
+        type: "paragraph",
+        text:
+          "This consistent need to explain myself and my chosen major has elicited much introspection on the subject and several efforts to distill and coalesce my thoughts in the hopes that it would offer some clarity. Indeed, this topic was my motivation for my ORFE Network project. There, I sought to explore \“What is ORFE?\” by analogy. Effectively, my answer was \“ORFE is like –– because these faculty collaborate on research in ––.\” Now, with this post, I’ll endeavor to answer it in a slightly more principled way.",
+      },
+      {
+        type: "paragraph",
+        text:
+          "I’ll offer my short and long-winded versions of my response in turn. If someone doesn’t know me too well or I figure they’d rather a brief answer, I tell them, \“I major in applied math and statistics,\” or, \“It’s kind of like applied math mixed with computer and data science.\” That generally prompts a nod or further discussion, likely depending on the person’s intent and degree of expertise in the subjects I mention. Sometimes, I’ll continue with \“it applies math and AI to finance, often related to trading or portfolio management. But the skills you learn can translate to virtually any field.\” While this approach lacks some specificity, I’ve learned that it works fairly well. Most people exit the conversation with at least a vague understanding of what ORFE is.",
+      },
+      {
+        type: "paragraph",
+        text:
+          "However, if the situation calls for it, I’ll provide my long-form answer. I’ll usually proceed as follows: \“ORFE positions itself as a ‘contemporary liberal education.’ It’s contemporary because it’s grounded in STEM, data, and technology. In fact, the department’s corresponding minor program is called ‘Optimization and Quantitative Decision Science.’ The major is ‘liberal’ in the sense that, although the program dedicates most of its application to finance, the knowledge you gain on how to approach data-driven decision making is applicable to almost anything.\” I then say, \“I think this is best explained by discussing ORFE’s core classes and how they fit together to form a complete picture of a quantitative decision framework. Most students start with the department’s ‘Fundamentals of Statistics’ class. This serves as your first introduction to how data can be used to make precise mathematical predictions about the world. Then, you take ‘Probability and Stochastic Processes,’ which teaches you how to rigorously understand and quantify uncertainty – a property inherent to almost all real-world systems. Next, you typically take ‘Optimization’ and ‘Introduction to Financial Mathematics.’ At last, you can appreciate the major’s impact potential. In ‘Optimization,’ you now transition from data to decisions via mathematical modeling while previewing various application domains. Then, in ‘Introduction to Financial Mathematics,’ you get a more detailed view of how the knowledge developed in the department’s core classes informs financial decision making. Finally, after completing those classes, the ORFE major becomes extremely flexible, and you’re free to choose elective classes from various fields, most commonly economics, energy, or pre-med while deepening your expertise in ORFE’s various subdomains, primarily optimization, machine learning, and quantitative finance. In this way, ORFE provides a strong technical foundation with the freedom to apply it to whatever interests you.\”",
+      },
+      {
+        type: "paragraph",
+        text:
+          "This naturally begs the question: \“So what was ORFE like for you?\” And my response is that, throughout my time at Princeton, I was consistently driven to find solutions to healthcare’s clinical and operational challenges. Consequently, I sought to understand both the personal and technical sides of the problem. My pre-med studies, volunteer work, and other extracurriculars provided first-hand exposure to those affected by these issues: patients, clinicians, and administrators. In tandem, I developed the technical knowledge necessary to begin addressing them in a disciplined, quantitative fashion using data-driven optimization, machine learning, and AI. I then began to apply that knowledge with my senior thesis. Now, I believe my capabilities will continue compounding throughout my year in MIT’s Master of Business Analytics (MBAn) program. I’m especially excited by the hands-on experience offered by the program’s Analytics Lab and Capstone Project opportunities and the Operations Research Center’s research assistantship. The former will develop my ability to translate stakeholder problems into real-world analytics solutions, and the latter will position me to work at the cutting edge of healthcare analytics research with distinguished faculty such as Dimitris Bertsimas. Together, I’ll be even better equipped to scale these technologies and affect positive change on the healthcare system.",
+      },
+      {
+        type: "paragraph",
+        text:
+          "ORFE professor Alain Kornhauser once told my classmates and me during ORFE’s introductory event for first-year students that there’s an advantage to the fact that \“people haven’t heard of ORFE before.\” It’s an opportunity for us to explain it to them in a way that fits each person’s needs and understanding and our communication goals. Inspired by that, I will continue to hone my ability to \“sell ORFE\” and what I view as its unique strengths to those in healthcare and beyond.",
+      },
+    ],
+  },
+  {
     slug: "knowledge-and-its-applications",
     title: "Knowledge and Its Applications",
     date: "2026-06-19",
